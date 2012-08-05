@@ -5,11 +5,12 @@
 	<key>content</key>
 	<string>var x = 100
 	,y = 100
-	,r = 5;
+	,r = 5
+	,data = [2,4,6];
 
-svg.selectAll("${1:circle}")
+${1:chart}.selectAll("${2:circle}")
 	.data(data)
-	.enter().append("${1:circle}")
+	.enter().append("${2:circle}")
 		.attr("cx", x)
 		.attr("cy", y)
 		.attr("r", r);
