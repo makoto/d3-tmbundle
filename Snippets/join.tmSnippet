@@ -7,12 +7,13 @@
 	,y = 100
 	,r = 5;
 
-svg.selectAll("$1")
+svg.selectAll("${1:circle}")
 	.data(data)
-	.enter().append("$1")
+	.enter().append("${1:circle}")
 		.attr("cx", x)
 		.attr("cy", y)
-		.attr("r", r);</string>
+		.attr("r", r);
+	</string>
 	<key>name</key>
 	<string>join</string>
 	<key>tabTrigger</key>
