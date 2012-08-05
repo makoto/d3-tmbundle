@@ -17,6 +17,8 @@ ${1:chart}.selectAll("${2:circle}")
 	</string>
 	<key>name</key>
 	<string>join</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>join</string>
 	<key>uuid</key>
