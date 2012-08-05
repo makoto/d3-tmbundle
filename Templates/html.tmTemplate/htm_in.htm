@@ -1,81 +1,41 @@
 <html>
- 
-<head>
- 
-<script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
-<style type="text/css" media="screen">
-  .chart rect {
-    stroke: white;
-    fill: steelblue;
-  }
-</style>
-</head>
-<body>
-  <script type="text/javascript">
+  <head>
+    <script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
+    <style type="text/css" media="screen">
+      .chart rect {
+        stroke: white;
+        fill: steelblue;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
   
-  // From tutorial http://mbostock.github.com/d3/tutorial/bar-1.html
-    var width = 420
-      ,height = 150
-      ,data = [4, 8, 15, 16, 23, 42];
+    // From tutorial http://mbostock.github.com/d3/tutorial/bar-1.html
+      var width = 420
+        ,height = 150
+        ,data = [4, 8, 15, 16, 23, 42];
 
-    var x = d3.scale.linear()
-      .domain([0, d3.max(data)])
-      .range([0, width]);
+      var x = d3.scale.linear()
+        .domain([0, d3.max(data)])
+        .range([0, width]);
       
-    var y = d3.scale.ordinal()
-      .domain(data)
-      .rangeBands([0, height]);
+      var y = d3.scale.ordinal()
+        .domain(data)
+        .rangeBands([0, height]);
 
-    var chart = d3.select("body").append("svg")
-        .attr("class", "chart")
-        .attr("width", width)
-        .attr("height", height)
-        .style("margin-left", "32px") // Tweak alignment…
-      .append("g")
-        .attr("transform", "translate(10,15)");
+      var chart = d3.select("body").append("svg")
+          .attr("class", "chart")
+          .attr("width", width)
+          .attr("height", height)
 
-    chart.selectAll("line")
-        .data(x.ticks(10))
-      .enter().append("line")
-        .attr("x1", x)
-        .attr("x2", x)
-        .attr("y1", 0)
-        .attr("y2", height)
-        .style("stroke", "#ccc");
-    
-    chart.selectAll(".rule")
-        .data(x.ticks(10))
-      .enter().append("text")
-        .attr("x", x)
-        .attr("y", 0)
-        .attr("dy", -3)
-        .attr("text-anchor", "middle")
-        .text(String);
+      chart.selectAll("rect")
+          .data(data)
+        .enter().append("rect")
+          .attr("y", y)
+          .attr("width", x)
+          .attr("height", y.rangeBand());
 
-    chart.selectAll("rect")
-        .data(data)
-      .enter().append("rect")
-        .attr("y", y)
-        .attr("width", x)
-        .attr("height", y.rangeBand());
-
-    chart.selectAll(".bar")
-        .data(data)
-      .enter().append("text")
-        .attr("class", "bar")
-        .attr("x", x)
-        .attr("y", function(d) { return y(d) + y.rangeBand() / 2; })
-        .attr("dx", -3)
-        .attr("dy", ".35em")
-        .attr("text-anchor", "end")
-        .text(String);
-
-    chart.append("line")
-        .attr("y1", 0)
-        .attr("y2", 120)
-        .style("stroke", "#000");
-
-
-  </script>
-</body>
+    </script>
+  </body>
 </html>
