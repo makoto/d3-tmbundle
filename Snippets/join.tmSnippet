@@ -14,9 +14,9 @@ svg.selectAll("$1")
 		.attr("cy", y)
 		.attr("r", r);</string>
 	<key>name</key>
-	<string>data</string>
+	<string>join</string>
 	<key>tabTrigger</key>
-	<string>data</string>
+	<string>join</string>
 	<key>uuid</key>
 	<string>6D94A425-D5B9-4640-99F2-D5FE5F0E5C15</string>
 </dict>
