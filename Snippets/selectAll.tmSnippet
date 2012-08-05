@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>d3.selectAll("$1")
+  .attr(name[, value])
+  .classed(name[, value])
+  .style(name[, value[, priority]])
+  .property(name[, value])
+  .text([value])
+  .html([value])
+  .append(name)
+  .insert(name, before)
+  .remove()
+  .data([values[, key]])
+  .enter()  
+  .exit()
+  .datum([value])
+  .filter(selector)
+  .sort(comparator)
+  .order()
+  .on(type[, listener[, capture]])
+  .transition
+  .each(function(){})
+  .call(functionName, arguments)
+  .empty()
+  .node()
+  .select()
+  .selectAll()
+</string>
+	<key>name</key>
+	<string>selectAll</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>sea</string>
+	<key>uuid</key>
+	<string>27CBD39B-43DE-4203-89CF-9796FA3AA171</string>
+</dict>
+</plist>

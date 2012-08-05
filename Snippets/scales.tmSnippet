@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var x = d3.scale.linear()
+    .domain([0, d3.max(data)])
+    .range([0, width - 10]);
+
+  var y = d3.scale.ordinal()
+    .domain(data)
+    .rangeBands([10, height]);
+</string>
+	<key>name</key>
+	<string>scales</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>scales</string>
+	<key>uuid</key>
+	<string>FEC0C65B-427D-419B-9D78-7C054E035791</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.transition()
+    .delay(delay)
+    .duration(duration)
+    .ease(value[, arguments])
+    .attr(name, value)
+    .attrTween(name, tween)
+    .style(name, value[, priority])
+    .styleTween(name, tween[, priority])
+    .text(value)
+    .tween(name, factory)
+    .select(selector)
+    .selectAll(selector)
+    .transition()
+    .remove()
+    .each("start|end", function(){})
+    .call(function)
+}</string>
+	<key>name</key>
+	<string>transition</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tr</string>
+	<key>uuid</key>
+	<string>4D8995D5-2EBF-4DFF-A39D-EF1ABAE94984</string>
+</dict>
+</plist>
