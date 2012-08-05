@@ -6,12 +6,22 @@
 	<dict>
 		<key>items</key>
 		<array>
+			<string>CF71DBB5-3C56-48DB-927E-54A03CF62764</string>
 			<string>6D94A425-D5B9-4640-99F2-D5FE5F0E5C15</string>
+			<string>FEC0C65B-427D-419B-9D78-7C054E035791</string>
 			<string>51468649-230C-4EB3-9CFA-1A35D23830E3</string>
 			<string>9B123712-52AA-4B20-9368-AECE613150A0</string>
+			<string>516E35F5-0651-4D2C-AE4E-93470D6AE8EA</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>12606259-33A7-49CF-9100-F599B0B4D14B</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>New Group</string>
+			</dict>
 			<key>1B65E255-AA40-4B47-AF04-5DBEA4E89AA5</key>
 			<dict>
 				<key>items</key>
@@ -25,16 +35,28 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>B685344F-EE19-49C8-995B-F44FE0FCF898</string>
 					<string>9BD15C1C-6D4A-4C87-B2A2-081BD6D106BC</string>
 					<string>1B65E255-AA40-4B47-AF04-5DBEA4E89AA5</string>
 				</array>
 				<key>name</key>
 				<string>Core</string>
 			</dict>
+			<key>516E35F5-0651-4D2C-AE4E-93470D6AE8EA</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>BE3B89D8-84A0-4016-A28D-3825CAFFB11A</string>
+				</array>
+				<key>name</key>
+				<string>Quantitative Scales</string>
+			</dict>
 			<key>9B123712-52AA-4B20-9368-AECE613150A0</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>12606259-33A7-49CF-9100-F599B0B4D14B</string>
+				</array>
 				<key>name</key>
 				<string>Scale</string>
 			</dict>
@@ -47,6 +69,15 @@
 				</array>
 				<key>name</key>
 				<string>Selections</string>
+			</dict>
+			<key>B685344F-EE19-49C8-995B-F44FE0FCF898</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>4D8995D5-2EBF-4DFF-A39D-EF1ABAE94984</string>
+				</array>
+				<key>name</key>
+				<string>Transitions</string>
 			</dict>
 		</dict>
 	</dict>
