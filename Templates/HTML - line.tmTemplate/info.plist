@@ -7,10 +7,10 @@
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y-%m-%d` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
-      &lt; template_in.txt &gt; "$TM_NEW_FILE"
+      &lt; index.htm &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
-	<string>txt</string>
+	<string>htm</string>
 	<key>name</key>
 	<string>HTML - line</string>
 	<key>uuid</key>
