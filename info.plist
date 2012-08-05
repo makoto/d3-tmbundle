@@ -2,8 +2,65 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>6D94A425-D5B9-4640-99F2-D5FE5F0E5C15</string>
+			<string>51468649-230C-4EB3-9CFA-1A35D23830E3</string>
+			<string>9B123712-52AA-4B20-9368-AECE613150A0</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>1B65E255-AA40-4B47-AF04-5DBEA4E89AA5</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>CFD27B4F-8346-41D1-A3E9-7581590DF623</string>
+				</array>
+				<key>name</key>
+				<string>Loading External Resources</string>
+			</dict>
+			<key>51468649-230C-4EB3-9CFA-1A35D23830E3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>9BD15C1C-6D4A-4C87-B2A2-081BD6D106BC</string>
+					<string>1B65E255-AA40-4B47-AF04-5DBEA4E89AA5</string>
+				</array>
+				<key>name</key>
+				<string>Core</string>
+			</dict>
+			<key>9B123712-52AA-4B20-9368-AECE613150A0</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Scale</string>
+			</dict>
+			<key>9BD15C1C-6D4A-4C87-B2A2-081BD6D106BC</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F703340B-1803-4A2F-A02B-8400822E6B05</string>
+					<string>27CBD39B-43DE-4203-89CF-9796FA3AA171</string>
+				</array>
+				<key>name</key>
+				<string>Selections</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>JavaScript D3</string>
+	<key>ordering</key>
+	<array>
+		<string>4DF20A95-C222-4E37-8823-B309076D7CEB</string>
+		<string>6D94A425-D5B9-4640-99F2-D5FE5F0E5C15</string>
+		<string>BB11F538-7F30-442D-A030-AB4ABA3F8BB4</string>
+		<string>CFD27B4F-8346-41D1-A3E9-7581590DF623</string>
+		<string>F703340B-1803-4A2F-A02B-8400822E6B05</string>
+		<string>27CBD39B-43DE-4203-89CF-9796FA3AA171</string>
+	</array>
 	<key>uuid</key>
 	<string>6C2C249A-D12F-403E-BBD7-A8B7A966152F</string>
 </dict>
