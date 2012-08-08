@@ -34,7 +34,7 @@
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>sea</string>
+	<string>select</string>
 	<key>uuid</key>
 	<string>27CBD39B-43DE-4203-89CF-9796FA3AA171</string>
 </dict>

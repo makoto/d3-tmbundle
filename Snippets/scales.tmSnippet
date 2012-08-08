@@ -7,9 +7,9 @@
     .domain([0, d3.max(data)])
     .range([0, width - 10]);
 
-  var y = d3.scale.ordinal()
-    .domain(data)
-    .rangeBands([10, height]);
+var y = d3.scale.ordinal()
+  .domain(data)
+  .rangeBands([10, height]);
 </string>
 	<key>name</key>
 	<string>scales</string>

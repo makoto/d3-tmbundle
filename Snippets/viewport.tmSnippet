@@ -3,8 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var width = ${1:800}
-  ,height = ${2:600};
+	<string>var width = ${1:500}
+  ,height = ${2:400}
+  ,data = [2,4,6];
 
 var ${3:chart} = d3.select("body").append("svg")
     .attr("class", "${3:chart}")
@@ -16,7 +17,7 @@ var ${3:chart} = d3.select("body").append("svg")
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>vp</string>
+	<string>viewport</string>
 	<key>uuid</key>
 	<string>CF71DBB5-3C56-48DB-927E-54A03CF62764</string>
 </dict>

@@ -3,18 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var x = 100
-	,y = 100
-	,r = 5
-	,data = [2,4,6];
-
-${1:chart}.selectAll("${2:circle}")
+	<string>${1:chart}.selectAll("${2:circle}")
 	.data(data)
 	.enter().append("${2:circle}")
-		.attr("cx", x)
-		.attr("cy", y)
-		.attr("r", r);
-	</string>
+</string>
 	<key>name</key>
 	<string>join</string>
 	<key>scope</key>

@@ -25,7 +25,7 @@
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>tr</string>
+	<string>transition</string>
 	<key>uuid</key>
 	<string>4D8995D5-2EBF-4DFF-A39D-EF1ABAE94984</string>
 </dict>
