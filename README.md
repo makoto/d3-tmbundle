@@ -27,8 +27,9 @@ This bundle is under MIT.
 - viewport = Initial setup to append svg with width and height
 - scales   = Adds scaling
 - [join](http://bost.ocks.org/mike/join/)
-- [chart](http://bost.ocks.org/mike/chart/) (TODO)
-
+- line/rect/circle
+- color
+- axis
 
 ### API
 
@@ -45,9 +46,17 @@ The snippet structure follows [the API page](https://github.com/mbostock/d3/wiki
 - json
 
 
-### Quantitative
+### Quantitative Scale
 
 - linear
+
+### Ordinal Scale
+
+- category
+
+### SVG
+
+- axis
 
 ## Template
 
@@ -227,10 +236,6 @@ Should I add all of them or only frequently used ones?
 * ordinal.rangeBand|Ordinal-Scales#wiki-ordinal_rangeBand - get the discrete range band width.
 * ordinal.rangeExtent|Ordinal-Scales#wiki-ordinal_rangeExtent - get the minimum and maximum values of the output range.
 * ordinal.copy|Ordinal-Scales#wiki-ordinal_copy - create a new scale from an existing scale.
-* d3.scale.category10|Ordinal-Scales#wiki-category10 - construct an ordinal scale with ten categorical colors.
-* d3.scale.category20|Ordinal-Scales#wiki-category20 - construct an ordinal scale with twenty categorical colors.
-* d3.scale.category20b|Ordinal-Scales#wiki-category20b - construct an ordinal scale with twenty categorical colors.
-* d3.scale.category20c|Ordinal-Scales#wiki-category20c - construct an ordinal scale with twenty categorical colors.
 
 ## [d3.svg (SVG)](SVG)
 
@@ -294,18 +299,6 @@ Should I add all of them or only frequently used ones?
 * d3.svg.diagonal.radial|SVG-Shapes#wiki-diagonal_radial - create a new diagonal generator.
 * diagonal|SVG-Shapes#wiki-_diagonal_radial - generate a two-dimensional Bézier connector, as in a node-link diagram.
 
-### Axes|SVG-Axes
-
-* d3.svg.axis|SVG-Axes#wiki-axis - create a new axis generator.
-* axis|SVG-Axes#wiki-_axis - creates or updates an axis for the given selection or transition.
-* axis.scale|SVG-Axes#wiki-scale - get or set the axis scale.
-* axis.orient|SVG-Axes#wiki-orient - get or set the axis orientation.
-* axis.ticks|SVG-Axes#wiki-ticks - control how ticks are generated for the axis.
-* axis.tickValues|SVG-Axes#wiki-tickValues - specify tick values explicitly.
-* axis.tickSubdivide|SVG-Axes#wiki-tickSubdivide - optionally subdivide ticks uniformly.
-* axis.tickSize|SVG-Axes#wiki-tickSize - specify the size of major, minor and end ticks.
-* axis.tickPadding|SVG-Axes#wiki-tickPadding - specify padding between ticks and tick labels.
-* axis.tickFormat|SVG-Axes#wiki-tickFormat - override the tick formatting for labels.
 
 ### Controls|SVG-Controls
 
