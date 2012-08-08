@@ -12,10 +12,12 @@
 			<string>1D500F35-87BA-4692-9EAB-B278C550449A</string>
 			<string>41D0C877-4D0D-4BB8-AF83-C57DF36727B7</string>
 			<string>279C3CD5-4254-498F-B546-F05B2C960DCF</string>
+			<string>6C042512-A2C5-4ECC-84B2-D083EFE7930D</string>
 			<string>AF0D8F81-D215-4DEF-A350-CCADEB7D62C8</string>
 			<string>51468649-230C-4EB3-9CFA-1A35D23830E3</string>
 			<string>9B123712-52AA-4B20-9368-AECE613150A0</string>
 			<string>31E1F5E4-B147-4289-9BBA-26825EAA3D7A</string>
+			<string>7600A0CE-E3B8-4858-901C-176A092A23BD</string>
 			<string>516E35F5-0651-4D2C-AE4E-93470D6AE8EA</string>
 		</array>
 		<key>submenus</key>
@@ -57,6 +59,15 @@
 				</array>
 				<key>name</key>
 				<string>Quantitative Scales</string>
+			</dict>
+			<key>7600A0CE-E3B8-4858-901C-176A092A23BD</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>FC078644-0D31-4FCA-A77A-66FB42D0B823</string>
+				</array>
+				<key>name</key>
+				<string>Ordinal Scales</string>
 			</dict>
 			<key>9B123712-52AA-4B20-9368-AECE613150A0</key>
 			<dict>
