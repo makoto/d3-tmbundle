@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.attr("y", ${1:function(d){return y(d)\}})
+.attr("width", ${2:function(d){return x(d)\}})
+.attr("height", ${3:y.rangeBand()});
+</string>
+	<key>name</key>
+	<string>rect</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>rect</string>
+	<key>uuid</key>
+	<string>279C3CD5-4254-498F-B546-F05B2C960DCF</string>
+</dict>
+</plist>

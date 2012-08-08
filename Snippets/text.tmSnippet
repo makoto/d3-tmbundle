@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:chart}.selectAll("${1:chart}")
+    .data(data)
+  .enter().append("text")
+    .attr("x", ${2:function(d){return x(d)\}})
+    .attr("y", ${3:function(d){return y(d) + y.rangeBand() / 2;\}})
+    .attr("dx", -3)
+    .attr("dy", ".35em")
+    .attr("text-anchor", "end")
+    .text(String);
+</string>
+	<key>name</key>
+	<string>text</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>text</string>
+	<key>uuid</key>
+	<string>AF0D8F81-D215-4DEF-A350-CCADEB7D62C8</string>
+</dict>
+</plist>

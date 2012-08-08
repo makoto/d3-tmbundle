@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>////  Add the following when you are setting svg viewport
+// .append("g")
+//   .attr("transform", "translate(20,20)");
+
+var xAxis = d3.svg.axis()
+  .scale(x)
+  .orient("top")
+  .tickSize(1)   
+  // .tickValues(data)
+  // .tickFormat(d3.format(".2f"))
+  // .tickPadding(1)
+  // .tickSubdivide(1)
+
+
+var yAxis = d3.svg.axis()
+  .scale(y)
+  .orient("left")
+  .tickSize(1)   
+
+chart.append("g")
+  .attr("class", "x axis");
+
+d3.select(".x.axis")
+  .call(xAxis);
+
+chart.append("g")
+  .attr("class", "y axis");
+
+d3.select(".y.axis")
+  .call(yAxis);
+</string>
+	<key>name</key>
+	<string>axis</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>axis</string>
+	<key>uuid</key>
+	<string>0C0F7D9E-3640-4CC2-AED5-31B57B20E30D</string>
+</dict>
+</plist>

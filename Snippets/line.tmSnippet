@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var line = d3.svg.line()
+    .x(${1:function(d){return x(d)\}})
+    .y(${2:function(d){return y(d)\}})
+    .interpolate("linear")
+          
+d3.select('svg')
+  .append('path')
+    .attr('d', line(data))
+    .style('fill', '${3:none}')
+    .style('stroke', '${4:black}')
+</string>
+	<key>name</key>
+	<string>line</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>line</string>
+	<key>uuid</key>
+	<string>41D0C877-4D0D-4BB8-AF83-C57DF36727B7</string>
+</dict>
+</plist>

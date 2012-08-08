@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var color = d3.scale.category10().domain(${1:data})</string>
+	<key>name</key>
+	<string>color</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>color</string>
+	<key>uuid</key>
+	<string>6C042512-A2C5-4ECC-84B2-D083EFE7930D</string>
+</dict>
+</plist>
