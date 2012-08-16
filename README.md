@@ -4,7 +4,7 @@ This is a TextMate bundle for [D3.js](http://d3js.org)
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/91zG4003m_0" frameborder="0" allowfullscreen></iframe>
 
-- [Demo](http://www.youtube.com/embed/91zG4003m_0)
+- [Demo](http://youtu.be/91zG4003m_0)
 
 ## Authors
 
