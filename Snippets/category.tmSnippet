@@ -6,6 +6,10 @@
 	<string>d3.scale.category${1:10/20/20b/20c}()</string>
 	<key>name</key>
 	<string>category</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>category</string>
 	<key>uuid</key>
 	<string>FC078644-0D31-4FCA-A77A-66FB42D0B823</string>
 </dict>
