@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>var group = svg.selectAll(".group")
-    .data(data, function(d){return d.key});
+    .data(data, ${1:function(d){return d\}});
 
 var groupEnter = group.enter().append('g')
   .attr('class', 'group')
