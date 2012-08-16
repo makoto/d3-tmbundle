@@ -3,9 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.attr("y", ${1:function(d){return y(d)\}})
-.attr("width", ${2:function(d){return x(d)\}})
-.attr("height", ${3:y.rangeBand()});
+	<string>groupEnter.append('rect')
+  .attr("y", ${1:function(d){return y(d)\}})
+  .attr("width", ${2:function(d){return x(d)\}})
+  .attr("height", ${3:y.rangeBand()});
+
+groupUpdate.select('rect')
+  .attr("y", ${1:function(d){return y(d)\}})
+  .attr("width", ${2:function(d){return x(d)\}})
+  
 </string>
 	<key>name</key>
 	<string>rect</string>

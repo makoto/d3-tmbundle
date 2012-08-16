@@ -3,9 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.attr("cx", ${1:function(d){return x(d)\}})
-.attr("cy", ${2:function(d){return y(d)\}})
-.attr("r", 5);
+	<string>groupEnter.append("circle")
+  .attr("cx", ${1:function(d){return x(d)\}})
+  .attr("cy", ${2:function(d){return y(d)\}})
+  .attr("r", ${3:5});
+
+groupUpdate.select('circle')
+  .attr("cx", ${1:function(d){return x(d)\}})
+  .attr("cy", ${2:function(d){return y(d)\}})
+  
 </string>
 	<key>name</key>
 	<string>circle</string>

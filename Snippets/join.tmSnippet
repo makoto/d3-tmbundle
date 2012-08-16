@@ -3,9 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:chart}.selectAll("${2:circle}")
-	.data(data)
-	.enter().append("${2:circle}")
+	<string>var group = svg.selectAll(".group")
+    .data(data, function(d){return d.key});
+
+var groupEnter = group.enter().append('g')
+  .attr('class', 'group')
+
+var groupUpdate = group.transition().duration(1000)
+
+var groupExit = d3.transition(group.exit())
+  .remove()
 </string>
 	<key>name</key>
 	<string>join</string>

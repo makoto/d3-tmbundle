@@ -22,13 +22,13 @@ var yAxis = d3.svg.axis()
   .orient("left")
   .tickSize(1)   
 
-chart.append("g")
+svg.append("g")
   .attr("class", "x axis");
 
 d3.select(".x.axis")
   .call(xAxis);
 
-chart.append("g")
+svg.append("g")
   .attr("class", "y axis");
 
 d3.select(".y.axis")
